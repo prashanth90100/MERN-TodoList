@@ -1,0 +1,89 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f6f9;
+  margin: 0;
+  padding: 0;
+}
+
+.home {
+  max-width: 600px;
+  margin: 3rem auto;
+  padding: 1.5rem;
+  background-color: white;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+}
+
+.create_form {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 1.5rem;
+}
+
+.create_form input {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 12px;
+  font-size: 16px;
+}
+
+.create_form button {
+  padding: 10px 16px;
+  border: none;
+  background-color: #00b894;
+  color: white;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.create_form button:hover {
+  background-color: #019875;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ecf0f1;
+  padding: 10px 14px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  transition: 0.3s ease;
+}
+
+.task:hover {
+  background-color: #dfe6e9;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.checkbox p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.checkbox.done p {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.icon {
+  font-size: 18px;
+  color: #2d3436;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.icon:hover {
+  transform: scale(1.2);
+  color: #d63031;
+}
